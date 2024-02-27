@@ -1,0 +1,18 @@
+#ifndef TPL0102_H
+#define TPL0102_H
+
+#include "stm32l5xx_hal.h"
+
+// Register addresses
+
+#define TPL0102_ADDR
+#define TPL0102_CHANNEL_0
+#define TPL0102_CHANNEL_1
+
+
+// Setting
+HAL_StatusTypeDef TPL0102_Write(I2C_HandleTypeDef *hi2c, uint8_t channel, uint8_t value);
+HAL_StatusTypeDef TPL0102_Read(I2C_HandleTypeDef *hi2c, uint8_t channel, uint8_t *value);
+
+
+#endif
