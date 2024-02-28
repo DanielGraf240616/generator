@@ -1,0 +1,26 @@
+#ifndef AD9833_H
+#define AD9833_H
+
+#include "stm32l5xx_hal.h"
+#include "stdint.h"
+
+// Register addresses
+#define AD9833_REG_CMD 0x2000
+#define AD9833_REG_FREQ0 0x4000 	// 0100 0000 0000 0000
+#define AD9833_REG_FREQ1 0x8000		// 1000 0000 0000 0000
+
+//#define AD9833_REG_CMD_PHASE0 0xC000	// 1100 0000 0000 0000
+//#define AD9833_REG_CMD_PHASE1 0xE000	// 1110 0000 0000 0000
+
+
+#define AD9833_WAVEFORM_SINE 0x2000
+#define AD9833_WAVEFORM_TRIANGLE 0x2002
+#define AD9833_WAVEFORM_SQUARE 0x2028
+
+
+// Setting
+void AD9833_Init(void);
+void AD9833_SetFrequency(uint32_t frequency);
+void AD9833_SetWaveform(uint16_t waveform);
+
+#endif
