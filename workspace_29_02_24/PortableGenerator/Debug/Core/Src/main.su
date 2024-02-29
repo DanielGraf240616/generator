@@ -1,0 +1,15 @@
+../Core/Src/main.c:792:13:MX_GPIO_Init	56	static
+../Core/Src/main.c:110:7:HAL_ADC_ConvCpltCallback	8	static
+../Core/Src/main.c:115:8:adc_voltage	0	static
+../Core/Src/main.c:123:7:RotaryEncoderUpdate	0	static
+../Core/Src/main.c:143:7:ImpChangeState	8	static
+../Core/Src/main.c:160:7:WaveformChangeState	8	static
+../Core/Src/main.c:190:8:REChangeState	16	static
+../Core/Src/main.c:843:6:Error_Handler	0	static,ignoring_inline_asm
+../Core/Src/main.c:693:13:MX_TIM1_Init	56	static
+../Core/Src/main.c:605:13:MX_I2C1_Init	8	static
+../Core/Src/main.c:744:13:MX_UART4_Init	8	static
+../Core/Src/main.c:653:13:MX_SPI1_Init	8	static
+../Core/Src/main.c:538:13:MX_ADC1_Init	48	static
+../Core/Src/main.c:493:6:SystemClock_Config	104	static
+../Core/Src/main.c:342:5:main	8	static
