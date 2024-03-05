@@ -1,0 +1,17 @@
+../Core/Src/main.c:770:13:MX_GPIO_Init	1
+../Core/Src/main.c:113:7:HAL_ADC_ConvCpltCallback	1
+../Core/Src/main.c:118:8:adc_voltage	1
+../Core/Src/main.c:126:7:RotaryEncoderUpdate	3
+../Core/Src/main.c:146:7:ImpChangeState	2
+../Core/Src/main.c:163:7:WaveformChangeState	4
+../Core/Src/main.c:190:7:REChangeState	4
+../Core/Src/main.c:255:7:DebounceRotaryEcoder	4
+../Core/Src/main.c:280:8:findClosest	4
+../Core/Src/main.c:820:6:Error_Handler	1
+../Core/Src/main.c:671:13:MX_TIM1_Init	1
+../Core/Src/main.c:583:13:MX_I2C1_Init	1
+../Core/Src/main.c:722:13:MX_UART4_Init	1
+../Core/Src/main.c:631:13:MX_SPI1_Init	1
+../Core/Src/main.c:516:13:MX_ADC1_Init	1
+../Core/Src/main.c:469:6:SystemClock_Config	1
+../Core/Src/main.c:304:5:main	6
