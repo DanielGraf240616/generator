@@ -1,0 +1,3 @@
+../Core/Src/AD9833.c:6:7:AD9833_Init	1
+../Core/Src/AD9833.c:12:7:AD9833_SetFrequency	1
+../Core/Src/AD9833.c:27:7:AD9833_SetWaveform	1

@@ -1,0 +1,10 @@
+19:47:06 **** Incremental Build of configuration Debug for project PortableGenerator ****
+make -j16 all 
+arm-none-eabi-size  PortableGenerator.elf 
+   text	   data	    bss	    dec	    hex	filename
+  36776	    512	   2496	  39784	   9b68	PortableGenerator.elf
+Finished building: default.size.stdout
+ 
+
+19:47:06 Build Finished. 0 errors, 0 warnings. (took 306ms)
+
