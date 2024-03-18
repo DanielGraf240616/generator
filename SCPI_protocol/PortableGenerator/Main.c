@@ -2,7 +2,7 @@
 #include "SCPI.h"
 #include "FindClosest.h"
 
-char command[20];
+char command[50];
 float batteryVoltage = 3.6;
 float amplitudeArray[256];
 float amplitudeCommand = 11.8;
@@ -14,8 +14,6 @@ int main()
     //char command[] = "ampl:0"; //User input
     InputCommand(); //Command input
     SCPI(command); //Command process
-    createAmplitudeArray(amplitudeArray);
-    //findClosestIndex(amplitudeArray, sizeof(amplitudeArray), amplitudeCommand);
 }
 
 
